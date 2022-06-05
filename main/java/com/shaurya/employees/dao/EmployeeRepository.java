@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.shaurya.employees.entity.Employee;
+import com.saurabh.employees.entity.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
