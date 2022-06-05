@@ -1,4 +1,4 @@
-package com.shaurya.employees.service;
+package com.saurabh.employees.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,12 +7,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.shaurya.employees.dao.EmployeeRepository;
-import com.shaurya.employees.dao.RoleRepository;
-import com.shaurya.employees.dao.UserRepository;
-import com.shaurya.employees.entity.Employee;
-import com.shaurya.employees.entity.Role;
-import com.shaurya.employees.entity.User;
+import com.saurabh.employees.dao.EmployeeRepository;
+import com.saurabh.employees.dao.RoleRepository;
+import com.saurabh.employees.dao.UserRepository;
+import com.saurabh.employees.entity.Employee;
+import com.saurabh.employees.entity.Role;
+import com.saurabh.employees.entity.User;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
