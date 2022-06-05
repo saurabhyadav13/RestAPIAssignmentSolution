@@ -1,10 +1,10 @@
-package com.shaurya.employees.service;
+package com.saurabh.employees.service;
 
 import java.util.List;
 
-import com.shaurya.employees.entity.Employee;
-import com.shaurya.employees.entity.Role;
-import com.shaurya.employees.entity.User;
+import com.saurabh.employees.entity.Employee;
+import com.saurabh.employees.entity.Role;
+import com.saurabh.employees.entity.User;
 
 public interface EmployeeService {
 
