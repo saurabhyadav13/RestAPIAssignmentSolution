@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shaurya.employees.entity.Employee;
-import com.shaurya.employees.entity.Role;
-import com.shaurya.employees.entity.User;
-import com.shaurya.employees.service.EmployeeService;
+import com.saurabh.employees.entity.Employee;
+import com.saurabh.employees.entity.Role;
+import com.saurabh.employees.entity.User;
+import com.saurabh.employees.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api")
