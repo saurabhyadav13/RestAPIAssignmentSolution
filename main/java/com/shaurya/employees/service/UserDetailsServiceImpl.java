@@ -1,13 +1,13 @@
-package com.shaurya.employees.service;
+package com.saurabh.employees.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-import com.shaurya.employees.dao.UserRepository;
-import com.shaurya.employees.entity.User;
-import com.shaurya.employees.security.MyUserDetails;
+import com.saurabh.employees.dao.UserRepository;
+import com.saurabh.employees.entity.User;
+import com.saurabh.employees.security.MyUserDetails;
 
 public class UserDetailsServiceImpl implements UserDetailsService {
 
