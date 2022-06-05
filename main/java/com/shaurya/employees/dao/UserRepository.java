@@ -1,9 +1,9 @@
-package com.shaurya.employees.dao;
+package com.saurabh.employees.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.shaurya.employees.entity.User;
+import com.saurabh.employees.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
