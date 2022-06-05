@@ -1,4 +1,4 @@
-package com.shaurya.employees.entity;
+package com.saurabh.employees.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
