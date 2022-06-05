@@ -1,4 +1,4 @@
-package com.shaurya.employees.dao;
+package com.saurabh.employees.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
