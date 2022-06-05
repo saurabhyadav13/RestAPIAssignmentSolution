@@ -1,4 +1,4 @@
-package com.shaurya.employees.security;
+package com.saurabh.employees.security;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,8 +8,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.shaurya.employees.entity.Role;
-import com.shaurya.employees.entity.User;
+import com.saurabh.employees.entity.Role;
+import com.saurabh.employees.entity.User;
 
 public class MyUserDetails implements UserDetails {
 
